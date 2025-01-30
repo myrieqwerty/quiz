@@ -57,3 +57,5 @@ user.post("login", async (c) => {
   //генерация токена и возвращение в фронт
   return c.json({ user: foundUser });
 });
+
+export default user;
